@@ -278,9 +278,11 @@ galleryHeaderEls.forEach((el) => {
 
 // Photo figures — enter from the direction of their tilt
 const figAnimations = [
-  { sel: '.gallery__fig--1', xFrom: -60 },
+  { sel: '.gallery__fig--1', xFrom: -50 },
+  { sel: '.gallery__fig--2', xFrom:  50 },
   { sel: '.gallery__fig--3', xFrom: -50 },
-  { sel: '.gallery__fig--4', xFrom: 50 },
+  { sel: '.gallery__fig--4', xFrom:   0 },
+  { sel: '.gallery__fig--5', xFrom:  50 },
 ]
 
 figAnimations.forEach(({ sel, xFrom }) => {
